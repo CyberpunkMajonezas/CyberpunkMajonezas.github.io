@@ -1,0 +1,2 @@
+# CyberpunkMajonezas.github.io
+nigga
