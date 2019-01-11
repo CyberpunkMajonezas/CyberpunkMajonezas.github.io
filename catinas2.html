@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="javascript" href="/css/master.css">
     <meta charset="utf-8">
     <title>Catinas</title>
   </head>
@@ -24,11 +25,26 @@
   <body>
 
     <img id="cat" src="images/can.jpg" width=30%>
-    <button onclick="document.getElementById('cat').src='images/yes.jpg'">Give a cheesburger</button>
+    <div id="butt"><button type="button" onclick="cC();tnx();dele()">Give a cheesborger</button></div>
 
+    <p id="Para">PAMAITINK MANE :'ccccccccccccccc </p>
     <p><a href="index.html">Pradžia</a></p>
 
     <iframe src="music/nasheed2.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
 
   </body>
+
+  <script>
+    function cC()
+    {
+      document.getElementById("cat").src = "images/yes.jpg";
+    }
+    function tnx()
+    {
+      document.getElementById("Para").innerHTML = "AČIŪŪŪŪŪŪ!!!!! OwO";
+     }
+      function dele() {
+        document.getElementById("butt").outerHTML = " ";
+      }
+  </script>
 </html>
