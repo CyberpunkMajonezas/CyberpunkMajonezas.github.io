@@ -1,0 +1,38 @@
+
+.wrapper{
+  position: fixed;
+  left: 0;
+  top:0;
+  margin-top: -20px;
+  width: 100%;
+  z-index: 1;
+  }
+
+nav {
+  background: black;
+
+}
+
+nav ul{
+  list-style-type: none;
+  padding:0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li{
+  flex-grow: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav a:hover{
+  background-color: #555;
+}
